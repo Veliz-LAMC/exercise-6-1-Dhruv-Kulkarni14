@@ -17,11 +17,19 @@ body {
 section {
     width: 525px;
     float: right;
+    padding: 0 20px 20px 20px;
 }
 
 aside {
     width: 215px;
     float: right;
+    padding: 0 0 20px 20px;;
+}
+h1 {
+    font-size: 150%;
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    margin: 0;
 }
 a:focus, a:hover {
 	font-style: italic;
@@ -43,12 +51,6 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-main {
-	clear: left;
-}
-main {
-	padding: 0 30px;
-}
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
@@ -86,6 +88,13 @@ article {
 	padding: .5em 0;
 	border-top: 2px solid #800000;
 	border-bottom: 2px solid #800000;
+}
+article img {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
 }
 article h2 {
 	padding-top: 0;
